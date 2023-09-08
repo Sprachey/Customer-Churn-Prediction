@@ -1,0 +1,10 @@
+In this project I firstly read the data from excel file and then have a look on the data.
+Then I removed unwanted columns(CustomerID, Name) and also checked for null values and datatypes.
+Then for chechking relation between the data i made some plots.
+Then I split the data in Train Test.
+Then I preprocessed the data and check the score of the models using pipeline.
+Then I used Cross validation technique to choose the best model.
+After choosing my model i trained the model.
+Then I predict the test data and check the precision, recall and F1 score using classification report function.
+Then I visualize the confusion matrix with the help of seaborn heatmap,
+At Last I calculate the accuracy of the model using formula : True Positive + True Negative /True Positive + True Negative +False Positive + False Negative  
